@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch version="4.3.6" xmlns="http://www.crossref.org/doi_resources_schema/4.3.6"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.crossref.org/doi_resources_schema/4.3.6 http://www.crossref.org/schemas/doi_resources4.3.6.xsd"
+    xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+    xmlns:fr="http://www.crossref.org/fundref.xsd">
+    <head>
+        <doi_batch_id>crossmark_batch</doi_batch_id>
+        <depositor>
+		<!--isi dengan lembaga penanggunjawab -->
+            <depositor_name>LPPM</depositor_name>
+			<!--isi dengan email dari lembaga penanggunjawab -->
+            <email_address>lppm@itda.ac.id</email_address>
+        </depositor>
+    </head>
+    <body>
+        <crossmark_data>
+            <!--isikan doi seperti contoh dibawah ini untuk table content-->
+            <doi>10.28989/kacanegara.v6i1.1218</doi>
+            <!--Isi doi berupa nomor doi diikuti nama jurnal serta nama terbitan dan nomor artikel-->
+            <crossmark>
+                <crossmark_version>2</crossmark_version>
+				<!--buat file crossmark policy terlebih dahulu seperti contoh dibawah-->
+                <crossmark_policy>10.28989/k-crossmark</crossmark_policy>
+				<!--gunakan halaman statis dan beri doi halaman tersebut-->
+                <crossmark_domains>
+                    <crossmark_domain>
+                        <domain>ejournals.itda.ac.id</domain>
+                    </crossmark_domain>
+                </crossmark_domains>
+                <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
+            </crossmark>
+        </crossmark_data>
+        <crossmark_data>
+            <!--isikan doi seperti contoh dibawah ini untuk dokumen pdf-nya-->
+            <doi>10.28989/kacanegara.v6i1.1218</doi>
+            <!--Isi doi berupa nomor doi diikuti nama jurnal serta nama terbitan dan nomor artikel-->
+            <crossmark>
+                <crossmark_version>2</crossmark_version>
+                <crossmark_policy>10.28989/k-crossmark</crossmark_policy>
+                <crossmark_domains>
+                    <crossmark_domain>
+					<!--isi dengan nama atau alamat ojs masing-masing perguran tinggi-->
+                        <domain>ejournals.itda.ac.id</domain>
+                    </crossmark_domain>
+                </crossmark_domains>
+                <crossmark_domain_exclusive>true</crossmark_domain_exclusive>           
+                <custom_metadata>
+                    <assertion name="received" label="Received" group_name="publication_history"
+                        group_label="Publication History" order="0">2022-03-31</assertion><!--isi dengan tanggal submit-->
+                    <assertion name="accepted" label="Accepted" group_name="publication_history"
+                        group_label="Publication History" order="1">2022-05-17</assertion><!--isi dengan tanggal accepted-->
+                    <assertion name="published" label="Published" group_name="publication_history"
+                        group_label="Publication History" order="2">2023-01-01</assertion><!--isi dengan tanggal published-->
+                    
+                </custom_metadata>
+            </crossmark>
+        </crossmark_data>
+    </body>
+</doi_batch>
